@@ -1,0 +1,63 @@
+*{
+  font-family: 'Nunito','Open Sans','Roboto','Open Sans', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 7em;
+  background-color: #ffffff;
+}
+
+nav a {
+  font-family: 'Nunito','Open Sans','Roboto','Open Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.4;
+  color: #111416;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+nav img {
+  width: 5em;
+  margin-right: 1em;
+}
+
+nav .nav-right a {
+  margin-right: 1em;
+  text-decoration: none;
+  color: #333;
+}
+
+nav .nav-right .signup-btn {
+  background-color: #1AC0FF;
+  color: #fff;
+  padding: 0.5em 1em;
+  border: none;
+  font-weight: bold;
+  border-radius: 100px !important;
+  cursor: pointer;
+  text-decoration: none;
+  height: 46px;
+  border-radius: 10px;
+  margin-right: 1em;
+  justify-content: center;
+  cursor: pointer;
+  flex-direction: row;
+  align-items: center;
+  background-color: #1AC0FF;
+  height: 46px;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s;
+}

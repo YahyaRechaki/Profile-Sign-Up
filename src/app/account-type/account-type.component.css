@@ -1,0 +1,283 @@
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.white-onboarding-container {
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  min-width: 250px;
+  padding: 22px;
+}
+
+.col-xs-12 {
+  width: 100%;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.kfds-c-form-border {
+  border: 2px solid rgba(62,63,58,.2)!important;
+  transition: border .3s ease-in-out;
+}
+
+.mb {
+  margin-bottom: 24px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.kfds-lyt-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kfds-srf-rounded-8 {
+  border-radius: 8px!important;
+}
+
+.kfds-lyt-width-100 {
+  width: 100%;
+}
+
+.kfds-srf-shadow {
+  width: 100%;
+  height: auto;
+  min-height: 45px;
+  box-shadow: 0 0 2px #e6e6e9, 0 1px 2px #d3d3d3;
+  display: flex;
+  background: #fff;
+  padding: 24px;
+  border-radius: 14px;
+}
+
+.kfds-lyt-column {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.kfds-lyt-width-100 {
+  width: 100%;
+}
+.fa-regular, .far {
+  font-weight: 400;
+}
+
+.fa-classic, .fa-light, .fa-regular, .fa-solid, .fa-thin, .fal, .far, .fas, .fat {
+  font-family: "Font Awesome 6 Pro";
+}
+
+.fa, .fa-brands, .fa-classic, .fa-duotone, .fa-light, .fa-regular, .fa-sharp, .fa-sharp-solid, .fa-solid, .fa-thin, .fab, .fad, .fal, .far, .fas, .fass, .fat {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display,inline-block);
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.kfds-font-bold {
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.kfds-font-size-18 {
+  font-size: 18px!important;
+}
+
+.hint {
+  color: #8a8fa0;
+}
+
+.hint {
+  font-weight: 400;
+  color: #8a8fa0;
+}
+
+
+.kfds-font-size-20 {
+  font-size: 20px!important;
+}
+
+.kfds-c-form-border:hover {
+  border: 2px solid #3e3f3a!important;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  appearance: button;
+  cursor: pointer;
+}
+
+
+.kfds-srf-rounded-8 {
+  border-radius: 8px!important;
+}
+.kfds-btm-mrgn-24 {
+  margin-bottom: 24px;
+}
+.kfds-lyt-row-respon {
+  display: flex;
+  flex-direction: row;
+}
+.p-16 {
+  padding: 16px;
+}
+.grey-container {
+  -moz-background-clip: padding;
+  background-clip: padding;
+  -moz-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -webkit-border-radius: 4px;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  min-width: 250px;
+  padding: 19px 25px 20px;
+}
+* {
+  box-sizing: border-box;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+user agent stylesheet
+div {
+  display: block;
+}
+body {
+  background: #fefaf9!important;
+  font-family: nunito,sans-serif;
+  max-height: 800px;
+  overflow: hidden;
+  padding-top: 16px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+body {
+  font-family: nunito,sans-serif;
+}
+body {
+  background-color: #fff;
+  background-size: cover;
+  color: #26272a;
+  font-family: nunito,sans-serif,arial;
+  font-size: 16px;
+  min-height: 100%;
+  padding-top: 60px;
+}
+body {
+  font-family: nunito,Arial,sans-serif;
+}
+body {
+  font-family: helvetica neue,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #3e3f3a;
+  background-color: #fff;
+}
+:root {
+  --blue-1000: #1AC0FF;
+  --blue-900: #31C6FF;
+  --blue-400: #A3E6FF;
+  --blue-300: #BBECFF;
+  --blue-200: #D1F2FF;
+  --blue-100: #E9F9FF;
+  --text-blue-1000: #00AFF1;
+  --white: #ffffff;
+}
+:host, :root {
+  --fa-style-family-classic: "Font Awesome 6 Pro";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Pro";
+}
+:host, :root {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Pro";
+}
+:host, :root {
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Pro";
+}
+:host, :root {
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Pro";
+}
+:host, :root {
+  --fa-style-family-duotone: "Font Awesome 6 Duotone";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+}
+:host, :root {
+  --fa-style-family-brands: "Font Awesome 6 Brands";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent;
+}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+::selection {
+  background: #009cde;
+  color: #fff;
+}
+
+
+.kfds-right-mrgn-24 {
+  margin-right: 24px;
+}
+.kfds-right-mrgn-24 {
+  margin-right: 24px;
+}
+
+.kfds-font-clr-primary {
+    color: #ff5f5f;
+}
+.kfds-font-size-medium {
+    font-size: 22px!important;
+}
+
+.kfds-font-clr-dark-op-8 {
+  color: #434b57;
+  opacity: .8;
+}
+.kfds-pdg-respon-24 {
+  padding: 0 24px;
+}
+.kfds-border-left {
+  border-left-style: solid;
+  border-width: 1px;
+  border-color: rgba(0,0,0,.2);
+}
+
